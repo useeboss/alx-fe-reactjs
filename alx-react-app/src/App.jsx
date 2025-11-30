@@ -5,6 +5,7 @@ import './App.css'
 import WelcomeMessage from './components/WelcomeMessage';
 import Header from './Header';
 import MainContent from './MainContent';
+import UserProfile from './components/UserProfile';
 import Footer from './Footer';
 
 function App() {
@@ -19,6 +20,16 @@ function App() {
 
 export default App;
 
+function App() {
+  return (
+    <div>
+      <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
+      <UserProfile name="Usman" age="30" bio="Learning React at ALX" />
+    </div>
+  );
+}
+
+export default App;
 
 
 function App() {
